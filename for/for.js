@@ -25,9 +25,9 @@ let fiveWords = ["perro", "gato", "conejo", "pelota", "mate"];
 
 let sentence = "";
 
-for (i = 0; i < fiveWords.length; i++) {
-   sentence += fiveWords[i];
-}
+// for (i = 0; i < fiveWords.length; i++) {
+//    sentence += fiveWords[i];
+// }
 
 
 // alert(sentence);
