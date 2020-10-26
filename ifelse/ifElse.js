@@ -24,7 +24,7 @@ let randomNumber = Math.random(0, 1);
 
 // b)
 
-let age = 2;
+// let age = 2;
 
 // i)
 
