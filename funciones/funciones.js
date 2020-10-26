@@ -12,7 +12,7 @@
 // 6)
 // a)
 
-let resultado;
+// let resultado;
 
 // function sumarNumeros(number1, number2) {
 //   return resultado = number1 + number2;
