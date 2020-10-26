@@ -24,21 +24,16 @@ let resultado;
 
 // b)
 
-// function sumarNumeros(number1, number2) {
-//   if (
-//     isNaN(number1) ||
-//     isNaN(number2) ||
-//     number1 == "" ||
-//     number2 == "" ||
-//     typeof number1 == "string" ||
-//     typeof number2 == "string"
-//   ) {
-//     alert("Uno de los parametros tiene error"), (resultado = "NaN");
-//   } else {
-//     resultado = number1 + number2;
-//   }
+// function sumarNumeros(number1,number2) {
+//     if(typeof(number1) === 'number' && typeof(number2) ==='number'){
+//         return resultado = number1 + number2;
+//     } else {
+//         alert("Uno de los parametros tiene error")
+//         return resultado = NaN;
+//     }
 // }
-// sumarNumeros(12, 25);
+
+// sumarNumeros(25,12);
 
 // console.log(resultado);
 
@@ -57,26 +52,24 @@ let resultado;
 
 // d)
 
-// function sumarNumeros(number1, number2) {
-//       if (
-//         isNaN(number1) ||
-//         isNaN(number2) ||
-//         number1 == "" ||
-//         number2 == "" ||
-//         typeof number1 == "string" ||
-//         typeof number2 == "string"
-//       ) {
-//         alert("Uno de los parametros tiene error"), (resultado = "NaN");
-//       } else if(!Number.isInteger(number1) || (!Number.isInteger(number2))) {
-//         return alert('Error'),
-//         resultado = parseInt(number1 + number2)
-//       }else{
-//           resultado = number1 + number2;
-//       }
-//     }
-//     sumarNumeros(12, 24);
 
-//     console.log(resultado);
+// function sumarNumeros(number1, number2) {
+//   if (typeof number1 === "number" && typeof number2 === "number") {
+//     if (Number.isInteger(number1) && Number.isInteger(number2)) {
+//       return (resultado = number1 + number2);
+//     } else {
+//       alert("Error, numero decimal");
+//       return (resultado = parseInt(number1 + number2));
+//     }
+//   } else {
+//     alert("Uno de los parametros tiene error");
+//     return (resultado = NaN);
+//   }
+// }
+
+// sumarNumeros(14,4.1);
+
+// console.log(resultado);
 
 // e)
 
@@ -84,21 +77,15 @@ let resultado;
 //   IsNotNumber(number1, number2)
 // }
 
-// sumarNumeros( 12, 12);
+// sumarNumeros( 14, 25);
 
 // console.log(resultado);
 
 // function IsNotNumber(number1, number2) {
-//   if (
-//     isNaN(number1) ||
-//     isNaN(number2) ||
-//     number1 == "" ||
-//     number2 == "" ||
-//     typeof number1 == "string" ||
-//     typeof number2 == "string"
-//   ) {
-//     alert("Uno de los parametros tiene error"), (resultado = "NaN");
-//   } else {
-//     resultado = number1 + number2;
-//   }
+//    if(typeof(number1) === 'number' && typeof(number2) ==='number'){
+//         return resultado = number1 + number2;
+//     } else {
+//         alert("Uno de los parametros tiene error")
+//         return resultado = NaN;
+//     }
 // }

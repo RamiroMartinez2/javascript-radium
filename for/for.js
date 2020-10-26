@@ -10,8 +10,8 @@
 
 let fiveWords = ["perro", "gato", "conejo", "pelota", "mate"];
 
-// for ( i = 0; i < 1; i++) {
-//   alert(fiveWords);
+// for ( i = 0; i < fiveWords.length; i++) {
+//   alert(fiveWords[i]);
 // }
 
 // b)
@@ -23,11 +23,12 @@ let fiveWords = ["perro", "gato", "conejo", "pelota", "mate"];
 
 // c)
 
-let sentence = [];
+let sentence = "";
 
-// for (i = 0; i < fiveWords.length; i++) {
-//   sentence.push(fiveWords[i]);
-// }
+for (i = 0; i < fiveWords.length; i++) {
+   sentence += fiveWords[i];
+}
+
 
 // alert(sentence);
 

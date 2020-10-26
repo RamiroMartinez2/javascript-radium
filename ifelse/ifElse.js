@@ -28,44 +28,44 @@ let age = 2;
 
 // i)
 
-if(age < 0 || age > 100) {
-alert('No se encuentra entre el rango permitido');
-}else if (age < 2) {
-  alert("Bebe");
-} else
+// if(age < 0 || age > 100) {
+// alert('No se encuentra entre el rango permitido');
+// }else if (age < 2) {
+//   alert("Bebe");
+// } else
 
-// ii)
+// // ii)
 
-if (age >= 2 && age <= 12) {
-  alert("Niño");
-}else
+// if (age >= 2 && age <= 12) {
+//   alert("Niño");
+// }else
 
-// iii)
+// // iii)
 
-if (age >= 13 && age <= 19) {
-  alert("Adolescente");
-}else
+// if (age >= 13 && age <= 19) {
+//   alert("Adolescente");
+// }else
 
-//iv)
+// //iv)
 
-if (age >= 20 && age <= 30) {
-  alert("Joven");
-}else
+// if (age >= 20 && age <= 30) {
+//   alert("Joven");
+// }else
 
-//v)
+// //v)
 
-if (age >= 31 && age <= 60) {
-  alert("Adulto");
-}else
+// if (age >= 31 && age <= 60) {
+//   alert("Adulto");
+// }else
 
-//vi)
+// //vi)
 
-if (age >= 61 && age <= 75) {
-  alert("Adulto mayor");
-}else
+// if (age >= 61 && age <= 75) {
+//   alert("Adulto mayor");
+// }else
 
-//vi)
+// //vi)
 
-if (age > 75) {
-  alert("Anciano");
-}
+// if (age > 75) {
+//   alert("Anciano");
+// }
